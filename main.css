@@ -31,14 +31,14 @@
 .card-header { padding: 0.25rem 1rem !important; }
 
 GOLD {
-    color: #ed9e17 !important;
+    color: #030303 !important;
     display: contents !important;
 }
 
 .CWITH { color: black !important; display: none; }
 
 PLUS {
-    color: #226439 !important;
+    color: #000000 !important;
     display: contents !important;
 }
 
@@ -80,13 +80,13 @@ SUPERLIKE, .SUPERLIKE {
   padding-left: 5px;
 }
 
-.t-bold { font-family: "Bold" !important; }
+.t-bold { font-family: "Bold" !important;color:#030303 }
 
-.t-bold-i { font-family: "Bold-I" !important; }
+.t-bold-i { font-family: "Bold-I" !important; color:#030303}
 
-.t-normal { font-family: "Normal" !important; }
+.t-normal { font-family: "Normal" !important; color:#030303}
 
-.t-light { font-family: "Light" !important; }
+.t-light { font-family: "Light" !important;color:#424546 }
 
 input {
   text-align: center !important;
@@ -94,8 +94,8 @@ input {
 }
 
 input::placeholder, button, input {
-  background-color: #fafafa !important;
-  color: #000100 !important;
+  background-color: #faf6f6 !important;
+  color: #2d2e2d !important;
 }
 
 .btn-lg { font-size: 1.4rem !important; }
@@ -150,13 +150,13 @@ body {
 }
 
 .t-gold {
-    color: #ed9e17 !important;
+    color: #2b2f2b !important;
     font-size: 1.25rem !important;
     cursor: pointer !important;
 }
 
 .t-plus {
-    color: #319236 !important;
+    color: #492c4a !important;
     font-size: 1.25rem !important;
     cursor: pointer !important;
 }
@@ -190,7 +190,7 @@ span { display: contents !important; }
    width: 96.1337%;
    border-radius: 0.8rem;
    background: #319236;
-   background: linear-gradient(90deg, #4c51f7 0%, #5e63f0 50%, #a2a5f3 100%);
+   background: linear-gradient(90deg, #b2b3c1 0%, #c8c8cf 50%, #ffffff 100%);
    padding: 1rem;
    color: #fafafa;
     -webkit-box-shadow: 0px 2.5px 15px 0px rgba(0,0,0,0.5);

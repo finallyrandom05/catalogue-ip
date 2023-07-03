@@ -1,4 +1,4 @@
-### Fortnite Premium Generator CPA Landing Page
+### TikTok Premium Generator CPA Landing Page
 #### About Free CPA Landing Pages
 ---
 **Free CPA Landing Pages for OGAds, CPABuild, CPAGrip & More!** - We find and share the best landing pages only for CPA affiliate marketing (Cost Per Action). The landing pages shared here have been coded by professionals and intended to increase your conversion rate and consecutively boost your earnings.
